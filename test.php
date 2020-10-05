@@ -7,15 +7,13 @@
 </head>
 <body>
 
-<?php
-  $fraze = "Byt ci nebyt";
-  $vek = 30;
-  $gpa = 3.76543;
-  $isMale = True;
-  echo "Hello";
-  
-?>
+<form action="test.php" method="get">
+  Jsi GAY? <input type="text" name="text1"> 
 
+  <input type="submit">
+</form>
+  <br>
+    Vysledek: <?php echo $_GET["text1"]?>
 
-</body>
+  </body>
 </html>

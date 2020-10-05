@@ -8,14 +8,19 @@
 <body>
 <?php
 $phrase = "Tamirova Skola";
+echo strtoupper ($phrase);
+echo strtolower ($phrase); 
+
           #0123456789
-echo strlen($phrase);
+#echo strlen($phrase);
 
-$phrase[0] = "B";
+#$phrase[0] = "A";
 
-echo $phrase[0];
+#echo $phrase[0];
 
+#echo str_replace("Tamirova", "Samirova", $phrase);
 
+#echo substr($phrase, 3)
 
 ?>
 
